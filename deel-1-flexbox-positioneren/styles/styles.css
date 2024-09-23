@@ -1,1 +1,68 @@
 /*Schrijf hier jouw CSS*/
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*Opdracht-2*/
+
+.opdracht-2 .flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.opdracht-2 .flex-item {
+    flex-basis: 240px;
+}
+/*Opdracht-3*/
+
+.opdracht-3 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.opdracht-3 .left {
+    align-self: flex-start;
+}
+.opdracht-3 .center {
+    align-self: center;
+}
+.opdracht-3 .right {
+    align-self: flex-end;
+}
+
+/*Opdracht-4*/
+
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+/*Opdracht-5*/
+
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.opdracht-5 .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.opdracht-5 .item-1 {
+    align-self: flex-start;
+}
+.opdracht-5 .item-2 {
+    align-self: center;
+
+}
+.opdracht-5 .item-3 {
+    align-self: flex-end;
+
+}
