@@ -1,1 +1,64 @@
 /*Schrijf hier jouw css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F3D9;
+    font-family: Poppins, Arial, sans-serif;
+    color: #030027;
+    text-align: center;
+    min-height: 100vh;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30vh;
+    justify-content: center;
+
+}
+.content {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+
+}
+.section-content {
+    padding: 40px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: indianred;
+    flex-basis: 280px;
+    border-radius: 6px;
+    box-shadow: #775560 10px 10px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: #030027;
+    color: #F2F3D9;
+}
+.navigation ul {
+    display: flex;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+
+}
